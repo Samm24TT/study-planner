@@ -1,10 +1,8 @@
-import "./App.css";
+import Auth from "./Auth";
 import { supabase } from "./supabaseClient";
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold text-blue-700 p-6">Study Planner</h1>
-  );
+  return <Auth />;
 }
 
 export default App;
